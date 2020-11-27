@@ -9,3 +9,4 @@
 * We have only used teo losses *1.Adversarial loss 2.Cycle consistency loss.*. but in the original paper three losses were used including identity loss.
 * Identity mapping loss:   An identity mapping loss was in-troduced in the original CycleGAN to preserve color com-position for a task of painting→photo. We also impose theidentity mapping loss forGXY↓to avoid color variation:Lidt(GXY↓) =‖GXY↓(y↓)−y↓‖1
 * Unpaired Image Super-Resolution using Pseudo-Supervision (https://openaccess.thecvf.com/content_CVPR_2020/papers/Maeda_Unpaired_Image_Super-Resolution_Using_Pseudo-Supervision_CVPR_2020_paper.pdf)
+* wasserstein Loss:   https://www.coursera.org/lecture/build-basic-generative-adversarial-networks-gans/wasserstein-loss-vy3To
